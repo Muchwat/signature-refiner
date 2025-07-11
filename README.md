@@ -1,12 +1,48 @@
-# React + Vite
+# Signature Refiner
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Signature Refiner** is an application that transforms your handwritten signature into a clean, professional, and transparent digital image.  
+Ideal for **official documents**, **digital forms**, or **personal branding**, the Signature Refiner helps you achieve a **crisp black signature** with a transparent background.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- **Image Upload**  
+  Easily upload your signature image (`PNG`, `JPG`, etc.) with a single click.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Background Removal**  
+  Adjust the *Background Removal* threshold to eliminate unwanted light-colored backgrounds, making your signature stand out.
+
+- **Edge Sharpening**  
+  Fine-tune the *Edge Sharpening* threshold to achieve crisp, clean lines for a polished look.
+
+- **Interactive Cropping**  
+  Precisely crop your signature using a user-friendly interface with draggable handles and a movable selection box.
+
+- **Real-time Preview**  
+  Instantly see the refined image as you adjust settings or crop.
+
+- **Download**  
+  Download your processed signature as a **high-quality PNG** file with a transparent background.
+
+---
+
+## 📝 How to Use
+
+1. **Upload**  
+   Click **`Choose Signature Image`** and select your handwritten signature file.
+
+2. **Refine**  
+   Use the *Background Removal* and *Edge Sharpening* sliders to achieve your desired clarity and transparency.
+
+3. **Crop (Optional)**  
+   - Click **`Crop Image`** to activate the cropping tool.  
+   - Drag the handles to resize the crop area or drag the box to move it.  
+   - Click **`Apply Crop`** to finalize the crop.
+
+4. **Download**  
+   Once satisfied, click **`Download Signature`** to save your refined image.
+
+---
+
+🎨 *Transform your signature today and leave a professional impression!*
